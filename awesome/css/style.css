@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.body{
+width: 100%;
+}
+.wrapper {
+     width: 1600px;
+    height: 670px;
+}
+.headerBlockMenu {
+    position: absolute;
+    left: 69%;
+    z-index: 375;
+    padding: 4%;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.headerBlockMenu__item-active{
+    color: #00e0d0;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.headerBlockMenu__item-active:hover a {
+    color: #00e0d0;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.headerBlockMenu__item{
+    font-family: sans-serif;
+    margin: 1%;
+    display: inline-block;
+}
+.headerBlockMenu__item:hover a{
+    color: #00e0d0;
+}
+.headerBlock__name{
+    width: 1600px;
+}
+.headerBlock__name hr{
+    position: absolute;
+    top: 290px;
+    left: 765px;
+}
+.headerBlock__name h1{
+    color: white;
+    transform: translateY(-450px);
+    width: 1600px;
+    font-size: 44px;
+    font-family: 'Abril Fatface', cursive;
+}
+.headerBlock__text p{
+    width: 1600px;
+    transform: translateY(-390px);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+span.dline {
+    line-height: 1.5;
+}
+.headerBlockImg__img{
+    height: 670px;
+    width: 1600px;
+    background-image: url(#img/PUT_YOUR_IMAGE.png);
+    z-index: 374;
+}
+.headerBlock__img__image{
+    background-size: 100%;
+    width: 100%;
+    height: 670px;
+    z-index: 375;
+    opacity: 0.851;
+}
+
+.headerBlock__logoName{
+    transform: translateY(-100%);
+    width: 1600px;
+    height: 670px;
+    background: rgba(9, 5, 47, 0.73);
+    position: absolute;
+    color: #00dfd0;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.headerBlock__logoName__tajam{
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 330px;
+}
+.headerBlock__logo{
+    font-size: 40px;
+}
+.headerBlock__logo__img{
+    position: absolute;
+    top: 20px;
+    left: 265px;
+    width: 55px;
+    height: 65px;
+}
+.headerBlock__btn__learn{
+    border: 1px solid  #00dfd0;
+    transform: translate(750px,-330px);
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color:  #00dfd0;
+    font-family: 'Play', sans-serif;
+    cursor: pointer;
+}
+.headerBlockCircle {
+    display: inline-block;
+    width: 1600px;
+    height: 50px;
+    bottom: 20px;
+    left: 780px;
+    cursor: pointer;
+    position: absolute;
+
+
+}
+.headerBlockCircle__item {
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.headerBlockCircle__item-active{
+    width: 10px;
+    height: 10px;
+    background:  #00dfd0;
+    border: 1px solid  #00dfd0;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.headerBlockCircle__item:hover{
+    border: 1px solid #00dfd0;
+    background: #00dfd0;
+
+}
+
+
+
